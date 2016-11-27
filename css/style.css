@@ -1,0 +1,61 @@
+
+body,div,ul,li{
+ margin:0 auto;
+ padding:0;
+}
+body{
+ font:12px "宋体";
+ text-align:center;
+}
+a:link{
+ color:#00F;
+ text-decoration:none;
+}
+a:visited {
+ color: #00F;
+ text-decoration:none;
+}
+a:hover {
+ color: #c00;
+ text-decoration:underline;
+}
+ul{
+ list-style:none;
+}
+.main{
+ clear:both;
+ padding:8px;
+ text-align:center;
+}
+/*第一种形式*/
+#tabs0 {
+ height: 200px;
+ width: 406px;
+ border: 1px solid #cbcbcb;
+ background-color: #f2f6fb;
+}
+.menu0{
+     display: inline-block;
+    border: solid 1px;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+.menu0 li{
+ display:block;
+ float: left;
+ padding: 4px 0;
+ width:100px;
+ text-align: center;
+ cursor:pointer;
+}
+.menu0 li.hover{
+    border: solid 1px;
+    border-radius: 18px;
+    background-color: #bdbdbd;
+}
+#main0 ul{
+ display: none;
+}
+#main0 ul.block{
+ display: block;
+}
